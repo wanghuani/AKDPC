@@ -109,7 +109,7 @@ def secondstep(data,batch,cluster,indexDistanceAsc,k_meandist):
   if __name__ == '__main__':
 
     import perpy as py
-    x,r= py.load(path=r'   ',col_labels=2)
+    x,r= py.load(path=r'   ',col_labels=2)   #load data
     #x, r = py.load(path=r'   ', col_labels=0)
     #x= py.load(path=r'   ', col_labels=None)
     # r = py.load(path=r'   ', col_labels=None,scaling=False)
